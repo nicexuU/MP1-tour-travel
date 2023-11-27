@@ -688,8 +688,8 @@ header.sticky {
 
 @media (max-width: 435px) {
   .navbar {
-    width: 150px;
-    height: 40vh;
+    width: 200px;
+    height: 50vh;
     padding-top: 50px;
     border-bottom-left-radius: 50px;
   }
@@ -699,12 +699,12 @@ header.sticky {
     transition: 0.4s;
   }
   .navbar a {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     padding: 5px 15px;
   }
   .news-text p{
-    font-size: 13px;
+    font-size: 14px;
   }
   .list ul li a {
     font-size: 13px;
