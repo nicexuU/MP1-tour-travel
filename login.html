@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Tour&Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navigation section -->
+    <header>
+      <div class="text-logo">
+        <img src="img/compass2.png" alt="compass" width="50px" />
+        <a href="index.html" class="logo">Travelo PH</a>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="log-in">
+        <form>
+          <h1>Log In</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required /><box-icon
+              type="solid"
+              name="user"
+            ></box-icon>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required /><box-icon
+              type="solid"
+              name="lock-alt"
+            ></box-icon>
+          </div>
+          <div class="remember-forget">
+            <label for=""><input type="checkbox" />Remember me</label>
+            <a href="">Forget password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="register">
+            <p>Don't have an account? <a href="">Register</a></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- link to javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
