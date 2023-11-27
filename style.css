@@ -22,10 +22,16 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background: rgba(0,0,0,0.11);
   }
   
+  .back-button {
+    position: relative;
+    left: -20px;
+    top: -15px;
+  }
+
   .logo {
     font-size: 35px;
     font-weight: 600;
@@ -110,7 +116,7 @@
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
+    border-radius: 15px;
     font-size: 16px;
     color: #fff;
   }
@@ -153,11 +159,11 @@
 
   .btn{
     width: 100%;
-    height: 45px;
+    height: 40px;
     background: #fff;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-weight: 600;
@@ -186,12 +192,6 @@
   @media (max-width: 1040px) {
     header{
       background: transparent;
-    }
-    .text-logo {
-      position: absolute;
-      top: 10px;
-      left: 20px;
-      transition: 0.3s;
     }
     .home {
       height: 100vh;
@@ -263,7 +263,7 @@
     }
   
     .btn{
-      width: 50%;
+      width: 70%;
       height: 100%;
       background: #fff;
       border: none;
