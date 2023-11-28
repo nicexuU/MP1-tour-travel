@@ -711,4 +711,7 @@ header.sticky {
   .newsletter {
     padding: 30px 5%;
   }
+  .logo{
+    display: none;
+  }
 }
